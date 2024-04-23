@@ -24,7 +24,7 @@ export default{
   },
   methods:{
     async fetchAllPlayers(){
-      const res = await fetch('http://localhost:5050/api');
+      const res = await fetch('https://top-football-players-node.onrender.com/api');
       const data = await res.json()
       console.log(data.players)
       return data.players
