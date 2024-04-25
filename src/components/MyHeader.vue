@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="appname">
         <h1> {{ appName }} </h1>
     </div>
 </template>
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style scoped>
-div {
+.appname {
     text-align: center;
     padding: 1em 0;
 }

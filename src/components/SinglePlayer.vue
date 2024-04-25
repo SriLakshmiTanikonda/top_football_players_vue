@@ -1,7 +1,7 @@
 <template>
     <div class="player-container">
         <div class="img-container">
-            <img width="150" height="150" :src="player.image" alt="">
+            <img class="playerimage" width="150" height="150" :src="player.image" alt="">
         </div>
         <div class="player-details">
             <h2 class="player-name">{{ player.name }}</h2>
@@ -39,19 +39,16 @@ export default {
 
 <style scoped>
 
-h4 {
-    margin: 2px;
-}
-
 
 .player-container {
     display: flex;
     width: 80% !important;
-    margin: auto;
+    margin: 0.5em auto;
     border: 0.3em solid black;
     padding: 30px;
     border-radius: 5px;
     background-color: #fff;
+
 }
 
 .img-container {
@@ -71,7 +68,7 @@ h4 {
     text-align: center;
 }
 
-img {
+.playerimage {
     border-radius: 50%;
 }
 th{

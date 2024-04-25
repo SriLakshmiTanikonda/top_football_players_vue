@@ -50,17 +50,13 @@ export default{
 body {
   font-family: 'Montserrat', sans-serif;
 }
-div{
-  margin-bottom: 0.5em;
-
-}
 .main-container {
     background-color: #b1e8b6;
     color: black;
     padding: 1em;
     text-align: auto;
     width: 80%;
-    margin: auto;
+     margin: auto;
 }
 @media screen and (max-width: 476px) {
   .main-container {
